@@ -1,8 +1,9 @@
 <Solution>
   <Project Path="Arguments/Arguments.csproj" />
   <Project Path="Exercise_Numbers/Exercise_Numbers.csproj" />
+  <Project Path="Exercise_Numbers_Ivan/Exercise_Numbers_Ivan.csproj" Id="d3096e7c-9508-47aa-a810-ff0d3a095bc9" />
   <Project Path="Formatting/Formatting.csproj" />
   <Project Path="Numbers/Numbers.csproj" />
-  <Project Path="Vocabulary/Vocabulary.csproj" />
   <Project Path="Variables/Variables.csproj" />
+  <Project Path="Vocabulary/Vocabulary.csproj" />
 </Solution>

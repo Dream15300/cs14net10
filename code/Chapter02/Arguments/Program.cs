@@ -12,7 +12,7 @@ if (args.Length < 3)
   return; // Stop running.
 }
 
-ForegroundColor = (ConsoleColor)Enum.Parse(
+ForegroundColor = (ConsoleColor)Enum.Parse( // Enum.Parse sucht den passenden Wert in der ConsoleColor-Enumeration basierend auf dem übergebenen String-Argument.
   enumType: typeof(ConsoleColor),
   value: args[0], ignoreCase: true);
 
@@ -22,7 +22,7 @@ BackgroundColor = (ConsoleColor)Enum.Parse(
 
 try
 {
-  CursorSize = int.Parse(args[2]);
+  CursorSize = int.Parse(args[2]); // Parse converts the string argument to an integer.
 }
 catch (PlatformNotSupportedException)
 {

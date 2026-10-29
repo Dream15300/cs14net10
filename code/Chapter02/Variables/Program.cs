@@ -61,6 +61,7 @@ foreach (var item in dictionary)
 
 #region Specifying the type of a local variable
 
+// Green squiggles appear under the following variable declarations because they are never used.
 var population = 67_000_000; // 67 million in UK.
 var weight = 1.88; // in kilograms.
 var price = 4.99M; // in pounds sterling.
@@ -92,7 +93,7 @@ Console.WriteLine($"default(bool) = {default(bool)}");
 Console.WriteLine($"default(DateTime) = {
   default(DateTime)}");
 Console.WriteLine($"default(string) = {
-  default(string) ?? "<NULL>"}");
+  default(string) ?? "<NULL>"}"); // The null-coalescing operator (??) is used to display <NULL> if the default value is null. (Standard / Ersatzwert anstelle von null.)
 
 int number = 13;
 Console.WriteLine($"number set to: {number}");

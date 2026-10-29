@@ -1,7 +1,7 @@
 ﻿using System.Reflection; // To use Assembly, TypeName, and so on.
 
 // See https://aka.ms/new-console-template for more information
-#error version
+// #error version
 
 // WriteLine($"Computer named {Env.MachineName} says \"No.\"");
 

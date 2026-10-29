@@ -19,7 +19,7 @@ string formatted = string.Format(
   arg0: numberOfApples,
   arg1: pricePerApple * numberOfApples);
 
-//WriteToFile(formatted); // writes the string into a file
+//WriteToFile(formatted); // writes the string into a file (not implemented in this example)
 
 // Three parameter values can use named arguments.
 WriteLine("{0} {1} lived in {2}.",
